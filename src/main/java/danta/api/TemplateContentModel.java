@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,15 +17,17 @@
  * See the License for more details.
  */
 
-package layerx.api;
+package danta.api;
 
-/**
- * Author:  joshuaoransky
- * Date:    4/29/16
- * Purpose:
- * Location:
- */
-public interface ExecutionContext {
+import net.minidev.json.JSONObject;
 
-    public Object get(final String key);
+public interface TemplateContentModel
+        extends ContentModel {
+
+    public TemplateContentModel setAttribute(final String name, final Object value);
+
+    public Object getAttribute(final String name);
+
+    public JSONObject toJSONObject(String... keys);
+
 }

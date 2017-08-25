@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,7 +17,7 @@
  * See the License for more details.
  */
 
-package layerx;
+package danta;
 
 import static javax.jcr.NamespaceRegistry.PREFIX_JCR;
 import static javax.jcr.NamespaceRegistry.PREFIX_MIX;
@@ -123,7 +123,7 @@ public class Constants {
     public static final String ID = "id";
     public static final String ID_AN = ID;
     //templating Stuff
-    public static final String TEMPLATE_CONTENT_MODEL_ATTR_NAME = "template__layerx__contentmodel";
+    public static final String TEMPLATE_CONTENT_MODEL_ATTR_NAME = "template__danta__contentmodel";
     public static final String ENGINE_RESOURCE = "engine_resource";
     public static final String NS_XUMAK_PN = "xk_";
     public static final String RESOURCE_CONTENT_KEY = CONTENT;

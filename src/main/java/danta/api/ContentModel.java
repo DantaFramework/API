@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,33 +17,28 @@
  * See the License for more details.
  */
 
-package layerx.api.exceptions;
+package danta.api;
 
 /**
- * Author:  joshuaoransky
- * Date:    4/29/16
+ * User: joshuaoransky
+ * Date: 11/8/13
+ * Time: 1:45
  * Purpose:
  * Location:
  */
-public class AcceptsException
-        extends Exception {
+public interface ContentModel {
 
-    public AcceptsException() {
-    }
+    public ContentModel set(String name, Object value);
 
-    public AcceptsException(String message) {
-        super(message);
-    }
+    public String getAsString(String name);
 
-    public AcceptsException(String message, Throwable cause) {
-        super(message, cause);
-    }
+    public Object get(String name);
 
-    public AcceptsException(Throwable cause) {
-        super(cause);
-    }
+    public <T> T getAs(String name, Class<T> type)
+            throws Exception;
 
-    public AcceptsException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-        super(message, cause, enableSuppression, writableStackTrace);
-    }
+    public boolean has(String name);
+
+    public <T> boolean is(String name, Class<T> type);
+
 }

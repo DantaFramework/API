@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,21 +17,33 @@
  * See the License for more details.
  */
 
-package layerx.api.configuration;
+package danta.api.exceptions;
 
 /**
- * User: joshuaoransky
- * Date: 3/16
- * Time: 23:38
+ * Author:  joshuaoransky
+ * Date:    4/29/16
  * Purpose:
  * Location:
  */
-public interface ConfigurationProvider<T> {
+public class ProcessException
+        extends Exception {
 
-    public Configuration getFor(T id)
-            throws Exception;
+    public ProcessException() {
+    }
 
-    public boolean hasConfig(T id)
-            throws Exception;
+    public ProcessException(String message) {
+        super(message);
+    }
 
+    public ProcessException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public ProcessException(Throwable cause) {
+        super(cause);
+    }
+
+    public ProcessException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
 }

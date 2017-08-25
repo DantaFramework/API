@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,27 +17,29 @@
  * See the License for more details.
  */
 
-package layerx.api;
+package danta.api;
 
-import org.jsoup.nodes.Document;
+import danta.api.exceptions.AcceptsException;
+import danta.api.exceptions.ProcessException;
 
 import java.util.List;
 
 /**
- * Author:  jbarrera
- * Date:    8/08/16
+ * Author:  joshuaoransky
+ * Date:    7/14/16
  * Purpose:
  * Location:
  */
-public interface DOMProcessorEngine {
+public interface ContextProcessorEngine {
+
     /**
      *
      * @param executionContext
-     * @param document
-     * @return An ordered List of the DomProcessors that were executed
+     * @param contentModel
+     * @return An ordered List of the ContextProcessors that were executed
+     * @throws AcceptsException
+     * @throws ProcessException
      */
-    public List<String> execute(ExecutionContext executionContext, final Document document)
-            throws Exception;
+    public List<String> execute(ExecutionContext executionContext, ContentModel contentModel)
+            throws AcceptsException, ProcessException;
 }
-
-

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-- LayerX API Bundle
+- Danta API Bundle
 -
 - Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
 -
@@ -21,10 +21,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>LayerX</groupId>
+        <groupId>Danta</groupId>
         <artifactId>Parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>https://github.com/layerx/Parent/pom.xml</relativePath>
+        <relativePath>https://github.com/danta/Parent/pom.xml</relativePath>
     </parent>
     <artifactId>API</artifactId>
     <version>1.0.0-SNAPSHOT</version>
@@ -37,8 +37,8 @@
                 <version>3.2.0</version>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>layerx.api</Bundle-SymbolicName>
-                        <Bundle-Name>LayerX API</Bundle-Name>
+                        <Bundle-SymbolicName>danta.api</Bundle-SymbolicName>
+                        <Bundle-Name>Danta API</Bundle-Name>
                         <Embed-Dependency>sling-query, json-smart, asm, jsoup</Embed-Dependency>
                         <_exportcontents>
                             com.cognifide.sling.query.*,
@@ -46,11 +46,11 @@
                             org.jsoup.*
                         </_exportcontents>
                         <Export-Package>
-                            layerx.api.*,
-                            layerx.*
+                            danta.api.*,
+                            danta.*
                         </Export-Package>
                         <Import-Package>*;resolution:=optional</Import-Package>
-                        <Bundle-Activator>layerx.api.APIActivator</Bundle-Activator>
+                        <Bundle-Activator>danta.api.APIActivator</Bundle-Activator>
                     </instructions>
                 </configuration>
             </plugin>
@@ -89,7 +89,7 @@
                                     <optimize>true</optimize>
                                     <osgiCompatibility>true</osgiCompatibility>
                                     <includes>
-                                        <include>layerx/**</include>
+                                        <include>danta/**</include>
                                     </includes>
                                 </configuration>
                             </execution>

@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,7 +17,7 @@
  * See the License for more details.
  */
 
-package layerx.api.configuration;
+package danta.api.configuration;
 
 import net.minidev.json.JSONObject;
 import net.minidev.json.JSONStyle;

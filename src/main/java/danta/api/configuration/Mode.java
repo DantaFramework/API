@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,10 +17,10 @@
  * See the License for more details.
  */
 
-package layerx.api.configuration;
+package danta.api.configuration;
 
 /**
- * The interface layerx.api.configuration
+ * The interface danta.api.configuration
  * determines how to handle multiple levels of Configuration values.
  * <p/>
  * For example, take these sample configurations:

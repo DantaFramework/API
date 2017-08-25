@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,11 +17,11 @@
  * See the License for more details.
  */
 
-package layerx.api;
+package danta.api;
 
-import layerx.Constants;
-import layerx.api.exceptions.AcceptsException;
-import layerx.api.exceptions.ProcessException;
+import danta.Constants;
+import danta.api.exceptions.AcceptsException;
+import danta.api.exceptions.ProcessException;
 
 /**
  * User: joshuaoransky

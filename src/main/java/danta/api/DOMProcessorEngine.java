@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,33 +17,27 @@
  * See the License for more details.
  */
 
-package layerx.api.exceptions;
+package danta.api;
+
+import org.jsoup.nodes.Document;
+
+import java.util.List;
 
 /**
- * Author:  joshuaoransky
- * Date:    4/29/16
+ * Author:  jbarrera
+ * Date:    8/08/16
  * Purpose:
  * Location:
  */
-public class ProcessException
-        extends Exception {
-
-    public ProcessException() {
-    }
-
-    public ProcessException(String message) {
-        super(message);
-    }
-
-    public ProcessException(String message, Throwable cause) {
-        super(message, cause);
-    }
-
-    public ProcessException(Throwable cause) {
-        super(cause);
-    }
-
-    public ProcessException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-        super(message, cause, enableSuppression, writableStackTrace);
-    }
+public interface DOMProcessorEngine {
+    /**
+     *
+     * @param executionContext
+     * @param document
+     * @return An ordered List of the DomProcessors that were executed
+     */
+    public List<String> execute(ExecutionContext executionContext, final Document document)
+            throws Exception;
 }
+
+

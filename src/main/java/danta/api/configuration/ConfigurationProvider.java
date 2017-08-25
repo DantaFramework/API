@@ -1,6 +1,6 @@
 /**
- * LayerX API Bundle
- * (layerx.api)
+ * Danta API Bundle
+ * (danta.api)
  *
  * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.
  *
@@ -17,29 +17,21 @@
  * See the License for more details.
  */
 
-package layerx.api;
-
-import layerx.api.exceptions.AcceptsException;
-import layerx.api.exceptions.ProcessException;
-
-import java.util.List;
+package danta.api.configuration;
 
 /**
- * Author:  joshuaoransky
- * Date:    7/14/16
+ * User: joshuaoransky
+ * Date: 3/16
+ * Time: 23:38
  * Purpose:
  * Location:
  */
-public interface ContextProcessorEngine {
+public interface ConfigurationProvider<T> {
 
-    /**
-     *
-     * @param executionContext
-     * @param contentModel
-     * @return An ordered List of the ContextProcessors that were executed
-     * @throws AcceptsException
-     * @throws ProcessException
-     */
-    public List<String> execute(ExecutionContext executionContext, ContentModel contentModel)
-            throws AcceptsException, ProcessException;
+    public Configuration getFor(T id)
+            throws Exception;
+
+    public boolean hasConfig(T id)
+            throws Exception;
+
 }
