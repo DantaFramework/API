@@ -21,6 +21,13 @@ package danta.api;
 
 import net.minidev.json.JSONObject;
 
+/**
+ * Template Content Model
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2016-08-08
+ */
 public interface TemplateContentModel
         extends ContentModel {
 

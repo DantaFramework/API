@@ -24,6 +24,13 @@ import static javax.jcr.NamespaceRegistry.PREFIX_MIX;
 import static javax.jcr.NamespaceRegistry.PREFIX_NT;
 import static org.apache.jackrabbit.spi.Name.*;
 
+/**
+ * Constants
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2016-04-20
+ */
 public class Constants {
 
 	/*

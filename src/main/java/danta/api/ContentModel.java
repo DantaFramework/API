@@ -20,11 +20,11 @@
 package danta.api;
 
 /**
- * User: joshuaoransky
- * Date: 11/8/13
- * Time: 1:45
- * Purpose:
- * Location:
+ * Constants
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2013-11-08
  */
 public interface ContentModel {
 

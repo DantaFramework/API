@@ -29,11 +29,11 @@ import java.util.Set;
 
 
 /**
- * User: joshuaoransky
- * Date: 3/16
- * Time: 23:40
- * Purpose:
- * Location
+ * Configuration
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2016-03-16
  */
 public interface Configuration {
 

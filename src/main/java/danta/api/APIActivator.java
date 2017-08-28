@@ -26,6 +26,13 @@ import org.osgi.framework.BundleContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * API Activator
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2013-11-08
+ */
 public class APIActivator
         implements BundleActivator {
 

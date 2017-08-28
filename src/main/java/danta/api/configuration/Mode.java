@@ -32,6 +32,10 @@ package danta.api.configuration;
  * }
  * <p/>
  * This enum is used by that interface.
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2016-08-08
  */
 public enum Mode {
     /**

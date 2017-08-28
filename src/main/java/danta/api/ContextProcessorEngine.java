@@ -25,10 +25,11 @@ import danta.api.exceptions.ProcessException;
 import java.util.List;
 
 /**
- * Author:  joshuaoransky
- * Date:    7/14/16
- * Purpose:
- * Location:
+ * Context Processor Engine
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2016-07-14
  */
 public interface ContextProcessorEngine {
 

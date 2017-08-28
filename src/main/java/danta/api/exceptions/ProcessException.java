@@ -20,10 +20,11 @@
 package danta.api.exceptions;
 
 /**
- * Author:  joshuaoransky
- * Date:    4/29/16
- * Purpose:
- * Location:
+ * Process Exception
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2016-08-08
  */
 public class ProcessException
         extends Exception {

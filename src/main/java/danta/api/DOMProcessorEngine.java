@@ -24,10 +24,11 @@ import org.jsoup.nodes.Document;
 import java.util.List;
 
 /**
- * Author:  jbarrera
- * Date:    8/08/16
- * Purpose:
- * Location:
+ * Context Processor Engine
+ *
+ * @author      jbarrera
+ * @version     1.0.0
+ * @since       2016-08-08
  */
 public interface DOMProcessorEngine {
     /**

@@ -24,11 +24,11 @@ import danta.api.exceptions.AcceptsException;
 import danta.api.exceptions.ProcessException;
 
 /**
- * User: joshuaoransky
- * Date: 10/30/13
- * Time: 4:49 PM
- * Purpose:
- * Location:
+ * Context Processor
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2013-10-30
  */
 public interface ContextProcessor<C extends ContentModel> {
 

@@ -28,6 +28,10 @@ import org.jsoup.nodes.Document;
  *
  *  After the entire Page's output HTML is rendered with all the content, it's then parsed a single time using
  *  the JSoup library. The result is passed into implementations of DOMParsers to be modified if necessary.
+ *
+ * @author      joshuaoransky
+ * @version     1.0.0
+ * @since       2016-07-14
  */
 public interface DOMProcessor {
 
