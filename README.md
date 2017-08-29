@@ -4,7 +4,7 @@ Danta - API Project is the core API maven project contained source codes which a
 
 ## Documentation
 
- * Read our [official documentation](http://danta.technologies.io/docs/) for more information.
+ * Read our [official documentation](http://danta.technologies.io/) for more information.
 
 ## Prerequisites
 
