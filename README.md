@@ -1,5 +1,7 @@
 # Danta - API Project
 
+Danta is the agnostic multi-platform templating engine. enables developers and IT teams to use technologies they already know, expediting the creation and leveraging of reusable technical assets.
+
 Danta - API Project is the core API maven project contained source codes which all platform specific maven project (i.e. Danta - AEM Project) depend on.
 
 ## Documentation
