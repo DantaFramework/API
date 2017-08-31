@@ -20,11 +20,11 @@ Danta - API Project is the core API maven project contained source codes which a
   * Via AEM Package Manager, install [ACS AEM Commons 3.9.0](https://github.com/Adobe-Consulting-Services/acs-aem-commons/releases/tag/acs-aem-commons-3.9.0) or later
   * Clone the following repositories into the same folder (i.e. C:\workspace\danta or /User/{username}/workspace/danta) 
   then run the maven build command (refer to **Compile** section of README.md, for each repository) in the following order
+    * [AEM Demo](https://github.com/DantaFramework/AEMDemo)
     * [Parent](https://github.com/DantaFramework/Parent)
     * [API](https://github.com/DantaFramework/API)
     * [Core](https://github.com/DantaFramework/Core)
-    * [AEM](https://github.com/DantaFramework/AEM)
-    * [AEM Demo](https://github.com/DantaFramework/AEMDemo)   
+    * [AEM](https://github.com/DantaFramework/AEM)   
     
     **Note: for fresh installation, make sure to install ACS Common before running the maven build command**
 
@@ -32,11 +32,11 @@ Danta - API Project is the core API maven project contained source codes which a
 
   * Clone the following repositories into the same folder (i.e. C:\workspace\danta or /User/{username}/workspace/danta) 
     then run the maven build command (refer to **Compile** section of README.md, for each repository) in the following order
+    * [JahiaDF Demo](https://github.com/DantaFramework/JahiaDFDemo)
     * [Parent](https://github.com/DantaFramework/Parent)
     * [API](https://github.com/DantaFramework/API)
     * [Core](https://github.com/DantaFramework/Core)
     * [JahiaDF](https://github.com/DantaFramework/JahiaDF)
-    * [JahiaDF Demo](https://github.com/DantaFramework/JahiaDFDemo)
 
 ### Official documentation
 
