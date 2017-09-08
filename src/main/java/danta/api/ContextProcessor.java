@@ -19,7 +19,6 @@
 
 package danta.api;
 
-import danta.Constants;
 import danta.api.exceptions.AcceptsException;
 import danta.api.exceptions.ProcessException;
 
@@ -30,7 +29,8 @@ import danta.api.exceptions.ProcessException;
  * @version     1.0.0
  * @since       2013-10-30
  */
-public interface ContextProcessor<C extends ContentModel> {
+public interface ContextProcessor<C extends ContentModel>
+        extends Processor {
 
     /**
      * Determines if this Processor should handle this Request and add to the Context.
@@ -43,25 +43,6 @@ public interface ContextProcessor<C extends ContentModel> {
      */
     public boolean accepts(final ExecutionContext executionContext)
             throws AcceptsException;
-
-    /**
-     * Returns the priority of this ContextProcessor.
-     * The processors are executed by the TemplatingSupportFilter in descending
-     * order based on the property.
-     * <p>
-     * The priority can be any int number. The following constants are provided
-     * only for convenience:
-     * <ul>
-     *     <li>HIGHEST_PRIORITY   = 1000
-     *     <li>MEDIUM_PRIORITY = 500
-     *     <li>LOW_PRIORITY    = 0
-     * </ul>
-     *
-     * @return the priority of this ContextProcessor
-     * @see Constants
-     *
-     */
-    public int priority();
 
     /**
      * This method is where any business logic resides, and the various results are added to the Context.
