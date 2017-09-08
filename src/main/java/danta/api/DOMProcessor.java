@@ -43,6 +43,6 @@ public interface DOMProcessor
      * @param document    The HTML document
      * @throws Exception
      */
-    public void process(final ExecutionContext executionContext, final Document document)
+    void process(final ExecutionContext executionContext, final Document document)
             throws Exception;
 }

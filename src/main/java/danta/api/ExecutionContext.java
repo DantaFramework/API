@@ -28,5 +28,5 @@ package danta.api;
  */
 public interface ExecutionContext {
 
-    public Object get(final String key);
+    Object get(final String key);
 }

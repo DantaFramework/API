@@ -31,10 +31,10 @@ import net.minidev.json.JSONObject;
 public interface TemplateContentModel
         extends ContentModel {
 
-    public TemplateContentModel setAttribute(final String name, final Object value);
+    TemplateContentModel setAttribute(final String name, final Object value);
 
-    public Object getAttribute(final String name);
+    Object getAttribute(final String name);
 
-    public JSONObject toJSONObject(String... keys);
+    JSONObject toJSONObject(String... keys);
 
 }

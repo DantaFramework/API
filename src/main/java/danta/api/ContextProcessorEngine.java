@@ -41,6 +41,6 @@ public interface ContextProcessorEngine {
      * @throws AcceptsException
      * @throws ProcessException
      */
-    public List<String> execute(ExecutionContext executionContext, ContentModel contentModel)
+    List<String> execute(ExecutionContext executionContext, ContentModel contentModel)
             throws AcceptsException, ProcessException;
 }

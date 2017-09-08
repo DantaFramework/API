@@ -28,17 +28,17 @@ package danta.api;
  */
 public interface ContentModel {
 
-    public ContentModel set(String name, Object value);
+    ContentModel set(String name, Object value);
 
-    public String getAsString(String name);
+    String getAsString(String name);
 
-    public Object get(String name);
+    Object get(String name);
 
-    public <T> T getAs(String name, Class<T> type)
+    <T> T getAs(String name, Class<T> type)
             throws Exception;
 
-    public boolean has(String name);
+    boolean has(String name);
 
-    public <T> boolean is(String name, Class<T> type);
+    <T> boolean is(String name, Class<T> type);
 
 }

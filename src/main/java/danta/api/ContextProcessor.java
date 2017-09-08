@@ -41,7 +41,7 @@ public interface ContextProcessor<C extends ContentModel>
      *
      * @throws AcceptsException
      */
-    public boolean accepts(final ExecutionContext executionContext)
+    boolean accepts(final ExecutionContext executionContext)
             throws AcceptsException;
 
     /**
@@ -52,7 +52,7 @@ public interface ContextProcessor<C extends ContentModel>
      *
      * @throws Exception
      */
-    public void process(final ExecutionContext executionContext, final C contentModel)
+    void process(final ExecutionContext executionContext, final C contentModel)
             throws ProcessException;
 
 }

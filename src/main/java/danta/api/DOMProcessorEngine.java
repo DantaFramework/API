@@ -37,7 +37,7 @@ public interface DOMProcessorEngine {
      * @param document
      * @return An ordered List of the DomProcessors that were executed
      */
-    public List<String> execute(ExecutionContext executionContext, final Document document)
+    List<String> execute(ExecutionContext executionContext, final Document document)
             throws Exception;
 }
 
