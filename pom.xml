@@ -29,6 +29,7 @@
     <artifactId>API</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
+    <name>Danta API</name>
     <build>
         <plugins>
             <plugin>
