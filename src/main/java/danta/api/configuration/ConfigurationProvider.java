@@ -28,10 +28,10 @@ package danta.api.configuration;
  */
 public interface ConfigurationProvider<T> {
 
-    public Configuration getFor(T id)
+    Configuration getFor(T id)
             throws Exception;
 
-    public boolean hasConfig(T id)
+    boolean hasConfig(T id)
             throws Exception;
 
 }

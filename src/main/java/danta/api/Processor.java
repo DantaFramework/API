@@ -19,26 +19,36 @@
 
 package danta.api;
 
-import org.jsoup.nodes.Document;
-
-import java.util.List;
+import danta.Constants;
 
 /**
- * Context Processor Engine
+ * Processor
  *
- * @author      jbarrera
+ * @author      dhughes
  * @version     1.0.0
- * @since       2016-08-08
+ * @since       2017-09-08
  */
-public interface DOMProcessorEngine {
+public interface Processor {
+
     /**
+     * Returns the priority of this Processor.
+     * The processors are executed in descending
+     * order based on the property.
+     * <p>
+     * The priority can be any {@code int} number. The following constants are provided
+     * only for convenience:
+     * <ul>
+     *     <li>HIGHEST_PRIORITY   = 1000
+     *     <li>HIGHER_PRIORITY   = 900
+     *     <li>HIGH_PRIORITY   = 800
+     *     <li>MEDIUM_PRIORITY = 500
+     *     <li>LOW_PRIORITY    = 0
+     * </ul>
      *
-     * @param executionContext
-     * @param document
-     * @return An ordered List of the DomProcessors that were executed
+     * @return the priority of this Processor
+     * @see Constants
+     *
      */
-    List<String> execute(ExecutionContext executionContext, final Document document)
-            throws Exception;
+    int priority();
+
 }
-
-

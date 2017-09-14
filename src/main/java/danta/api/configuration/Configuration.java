@@ -37,59 +37,59 @@ import java.util.Set;
  */
 public interface Configuration {
 
-    public Mode defaultMode();
+    Mode defaultMode();
 
-    public Set<String> names(Mode mode)
+    Set<String> names(Mode mode)
             throws Exception;
 
-    public Set<String> names()
+    Set<String> names()
             throws Exception;
 
-    public String asString(String paramName, Mode mode)
+    String asString(String paramName, Mode mode)
             throws Exception;
 
-    public Collection<String> asStrings(String paramName, Mode mode)
+    Collection<String> asStrings(String paramName, Mode mode)
             throws Exception;
 
-    public String asString(String paramName)
+    String asString(String paramName)
             throws Exception;
 
-    public Collection<String> asStrings(String paramName)
+    Collection<String> asStrings(String paramName)
             throws Exception;
 
-    public Number asNumber(String paramName, Mode mode)
+    Number asNumber(String paramName, Mode mode)
             throws Exception;
 
-    public Collection<Number> asNumbers(String paramName, Mode mode)
+    Collection<Number> asNumbers(String paramName, Mode mode)
             throws Exception;
 
-    public Number asNumber(String paramName)
+    Number asNumber(String paramName)
             throws Exception;
 
-    public Collection<Number> asNumbers(String paramName)
+    Collection<Number> asNumbers(String paramName)
             throws Exception;
 
-    public Date asDate(String paramName, Mode mode)
+    Date asDate(String paramName, Mode mode)
             throws Exception;
 
-    public Collection<Date> asDates(String paramName, Mode mode)
+    Collection<Date> asDates(String paramName, Mode mode)
             throws Exception;
 
-    public Date asDate(String paramName)
+    Date asDate(String paramName)
             throws Exception;
 
-    public Collection<Date> asDates(String paramName)
+    Collection<Date> asDates(String paramName)
             throws Exception;
 
-    public String toJSONString()
+    String toJSONString()
             throws Exception;
 
-    public String toJSONString(JSONStyle style)
+    String toJSONString(JSONStyle style)
             throws Exception;
 
-    public Map<String, Object> toMap()
+    Map<String, Object> toMap()
             throws Exception;
 
-    public JSONObject toJSONObject()
+    JSONObject toJSONObject()
             throws Exception;
 }

@@ -33,15 +33,8 @@ import org.jsoup.nodes.Document;
  * @version     1.0.0
  * @since       2016-07-14
  */
-public interface DOMProcessor {
-
-    /**
-     * This method returns the priority of the DOMProcessor. The priority defines the order in which the
-     * DOMProcessors will be executed.
-     *
-     * @return  Returns the priority of the DOMProcessor
-     */
-    public int priority();
+public interface DOMProcessor
+        extends Processor {
 
     /**
      * This method takes care of the HTML processing, using the JSoup library.
@@ -50,6 +43,6 @@ public interface DOMProcessor {
      * @param document    The HTML document
      * @throws Exception
      */
-    public void process(final ExecutionContext executionContext, final Document document)
+    void process(final ExecutionContext executionContext, final Document document)
             throws Exception;
 }
