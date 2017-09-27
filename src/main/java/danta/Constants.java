@@ -219,7 +219,7 @@ public class Constants {
     public static final String STYLE_AN = "style";
     public static final String ERROR = "ERROR";
     //Webservice Stuff
-    public static final String LAYERX_PRIVATE_AN_PREFIX = "___!_";
+    public static final String PRIVATE_AN_PREFIX = "___!_";
     public static final String PAGE_COMPONENT_RESOURCE_LIST_AN = "componentsList";
     public static final String CLIENT_CONTENT_MODEL_SELECTOR = "contentmodel";
     //Reserved system names
