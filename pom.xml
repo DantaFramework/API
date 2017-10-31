@@ -29,7 +29,17 @@
     <artifactId>API</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
+
     <name>Danta API</name>
+    <description>The Danta API project</description>
+    <url>https://github.com/DantaFramework/API</url>
+
+    <scm>
+        <connection>scm:git:git://github.com/DantaFramework/API.git</connection>
+        <developerConnection>scm:git:ssh://github.com/DantaFramework/API.git</developerConnection>
+        <url>https://github.com/DantaFramework/API/tree/master</url>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
