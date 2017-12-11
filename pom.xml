@@ -23,7 +23,7 @@
     <parent>
         <groupId>io.tikaltechnologies.danta</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>api</artifactId>
     <version>1.0.1-SNAPSHOT</version>
