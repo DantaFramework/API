@@ -1,7 +1,7 @@
 # Changelog
 
 ### Unreleased
-- No visible changes.
+- Changed Felix SCR annotations by the official OSGi Declarative Services annotations.
 
 ### 1.0.1
 - Changed project groupId from "danta" to "io.tikaltechnologies.danta".

@@ -132,6 +132,7 @@ public class Constants {
     //templating Stuff
     public static final String TEMPLATE_CONTENT_MODEL_ATTR_NAME = "template__danta__contentmodel";
     public static final String ENGINE_RESOURCE = "engine_resource";
+    public static final String CONFIGURATION_PROVIDER= "configuration_provider";
     public static final String NS_XUMAK_PN = "xk_";
     public static final String RESOURCE_CONTENT_KEY = CONTENT;
     public static final String STATS = "statistics";
