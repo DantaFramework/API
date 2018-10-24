@@ -97,6 +97,8 @@ public class Constants {
     public static final String HIDE_IN_NAV = "hideInNav";
     public static final String KEYWORDS = "keywords";
     public static final String TAGS = "tags";
+    public static final String TAGS_LIST = "tagsList";
+    public static final String TEMPLATE = "template";
     public static final String NAVIGATION_TITLE = "navigationTitle";
     public static final String SUBTITLE = "subtitle";
     public static final String BODY_CLASSES = "bodyClasses";
