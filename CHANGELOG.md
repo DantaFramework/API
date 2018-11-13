@@ -1,6 +1,9 @@
 # Changelog
 
 ### Unreleased
+- No visible changes.
+
+### 1.0.2
 - Added new page properties constants.
 
 ### 1.0.1
